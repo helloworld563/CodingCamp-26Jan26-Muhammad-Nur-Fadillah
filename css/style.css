@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+.lingkaran-logo {
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1;
+}
+
+
+.menu-container {
+  display: flex;
+  gap: 10px; 
+}
+
+
+.nav-button {
+  background-color: white;
+  border: 1px solid #333;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px; 
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.nav-button:hover {
+  background-color: #f0f0f0;
+}
+
+ .montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center_text {
+        text-align: center;
+    }
+
+.sambutan_text {
+    display: flex;
+    justify-content: middle;
+    min-height: 80vh;
+    text-align: middle;
+}
+
+.justify-items-center{
+justify-items: center;
+	vertical-align: middle;
+}
+
+.middle-text {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+    
+}
+
+.sambutan_animasi {
+  margin: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sub_sambutan_animasi{
+   margin-top: 10px; 
+  animation: subfadein 2s ease-out forwards;
+    
+}
+
+@keyframes subfadein {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.right-text{
+    text-align: right;
+}
+
+.input-field {
+  display: block;
+  padding: 15px;
+  max-width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px solid gray;
+  outline: none;
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.comment-box {
+  display: block;
+  padding: 15px;
+  max-width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px solid gray;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+
+}
+
+.comment-box:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.resultsubmit-box {
+  display: block;
+  padding: 15px;
+  max-width: 300px;
+  border: 1px solid gray;
+  border-color: gray;
+  border-radius: 30px;
+}
