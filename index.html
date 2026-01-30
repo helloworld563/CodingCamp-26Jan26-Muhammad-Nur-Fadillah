@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js"
+</head>
+<body>
+    <h1 style="font-family: Montserrat;">Web Portfolio</h1>
+    <hr color="gray">
+
+    <nav class="navbar">
+  <div class="logo">
+    <div class="lingkaran-logo"></div>
+  </div>
+
+  <div class="menu-container">
+    <button class="nav-button">Home</button>
+    <a href="#profile" class="nav-button">Our Profile</a>
+    <button class="nav-button">Portfolio</button>
+    <a class="nav-button" href="#Message1">Message Us</a>
+  </div>
+</nav>
+
+<div class="wrapper">
+<h1 class="sambutan_animasi">Selamat datang di Website saya</h1>
+<h3 class="sub_sambutan_animasi">Senang bertemu dengan anda</h3>
+</div>
+<hr>
+<section>
+    <div>
+        <h3 style="font-family: Montserrat;" id="Message1"> Message us!</h3>
+        <form id="myform">
+            <input type="text" id="name" placeholder="Nama Lengkap" required class="input-field">
+            <br>
+            <input type="email" id="email" placeholder="Email" required class="input-field">
+            <br>
+            <input type="number" id="number" placeholder="nomor telepon" required class="input-field">
+            <br>
+            <input type="radio" id="laki" value="laki" placeholder="laki" required>
+            <label>laki-laki</label>
+            <input type="radio" id="perempuan" value="perempuan" required>
+            <label>Perempuan</label>
+            <br>
+            <textarea id="comment" value="comment" placeholder="Masukan Komentar anda disini" require class="comment-box"></textarea>
+            <br>
+            <button type="submit" class="nav-button">Submit</button>
+        </form>
+    </div>
+</section>
+
+<div id="output" style="margin-top: 20px; font-weight: bold;">
+    
+</div>
+<script src="script.js"></script>
+
+<div id="output" style="margin-top: 20px; font-weight: bold;">
+    
+</div>
+<hr>
+
+<div id="profile">
+    <h2 style="font-family: Montserrat;">Our Profile</h2>
+    <p style="font-family: Montserrat;">Nama : Muhammad nur Fadillah</p>
+    <p style="font-family: Montserrat;">Umur : 17 Tahun</p>
+    <p style="font-family: Montserrat;">Gender: laki-laki</p>
+    <p style="font-family: Montserrat;">We are a group of individuals who are in love with the world of code. Through this coding bootcamp, we learned that building a website isn't just about typing, but about solving logic problems and learning from every error.</p>
+</div>
+
+<footer>
+    <h6 class="right-text">create by </h6>
+</footer>
+</body>
+</html>
